@@ -3,3 +3,5 @@
 Replicas of my first workshop sessions
 
 The next session is planned tomorrow
+
+Thanks for listening

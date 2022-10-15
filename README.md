@@ -1,7 +1,4 @@
-# First project of the Journey
+# Responsive Design
 
-Replicas of my first workshop sessions
+### CSS Fundamentals
 
-The next session is planned tomorrow
-
-Thanks for listening

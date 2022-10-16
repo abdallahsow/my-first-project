@@ -6,8 +6,9 @@
   padding: 50px;
 }
 
-h1, p {
-    margin-top: 0;
+h1,
+p {
+  margin-top: 0;
 }
 
 h1 {
@@ -23,16 +24,26 @@ p {
   margin-bottom: 0;
 }
 
-strong {
-  border: 1px solid red;
-  background: yellow;
-  color: black;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin: 10px;
-  padding-inline: 30px;
+span {
+  color: #ffe600;
 }
 
-span {
-    color: yellow;
+a {
+  color: #ffe600;
+}
+
+a:visited {
+  color: aquamarine;
+}
+
+a:hover {
+  color: #ffe600;
+}
+
+a:active {
+  color: #fff;
+}
+
+a:focus {
+  color: red;
 }

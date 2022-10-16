@@ -6,6 +6,10 @@
   padding: 50px;
 }
 
+h1, p {
+    margin-top: 0;
+}
+
 h1 {
   font-size: 24px;
 }
@@ -27,4 +31,8 @@ strong {
   margin-bottom: 20px;
   margin: 10px;
   padding-inline: 30px;
+}
+
+span {
+    color: yellow;
 }

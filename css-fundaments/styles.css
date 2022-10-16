@@ -18,3 +18,13 @@ p {
   margin-top: 45px;
   margin-bottom: 0;
 }
+
+strong {
+  border: 1px solid red;
+  background: yellow;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 10px;
+  padding-inline: 30px;
+}

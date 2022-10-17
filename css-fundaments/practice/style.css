@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.blog {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+.blog-title {
+  margin-block: 45px;
+  font-size: 48px;
+  text-align: center;
+  color: #2e7ad3;
+}
+
+.awesome-blog {
+  background-color: #f1f1f1;
+  padding: 25px;
+}
+
+.blog-subtitle {
+  font-size: 32px;
+  color: #104c90;
+}
+
+.blog-img {
+  margin-bottom: 25px;
+}
+
+.blog-text {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ff8000;
+}

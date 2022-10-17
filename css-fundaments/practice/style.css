@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "karla", sans-serif;
 }
 
 .blog {
@@ -28,6 +29,7 @@ p {
 .blog-subtitle {
   font-size: 32px;
   color: #104c90;
+  margin-bottom: 10px;
 }
 
 .blog-img {
@@ -40,4 +42,19 @@ p {
 
 a {
   color: #ff8000;
+  font-weight: bold;
+}
+
+a:hover,
+:focus {
+  text-decoration: none;
+}
+
+a:focus {
+  color: gray;
+  outline: none;
+}
+
+a:hover {
+  color: firebrick;
 }

@@ -24,10 +24,7 @@ p {
   margin-bottom: 0;
 }
 
-span {
-  color: #ffe600;
-}
-
+span,
 a {
   color: #ffe600;
 }

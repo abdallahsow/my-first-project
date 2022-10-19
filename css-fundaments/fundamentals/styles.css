@@ -35,7 +35,7 @@ a:visited {
 }
 
 a:hover {
-  color: #ffe600;
+  color: red;
 }
 
 a:active {
@@ -52,4 +52,8 @@ a:focus {
   color: #000;
   font-weight: bold;
   padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: #fff;
 }

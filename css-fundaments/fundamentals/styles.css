@@ -24,16 +24,6 @@ header {
   color: #000;
 }
 
-.section-one {
-  background-color: #000;
-  color: #fff;
-}
-
-.section-two {
-  background-color: white;
-  color: black;
-}
-
 h1 {
   font-size: 24px;
 }
@@ -47,12 +37,9 @@ a {
   color: #ffe600;
 }
 
-.section-two a {
-  color: #ffe600;
-}
-
-.section-two .button {
-  background-color: black;
+.section-one {
+  background-color: #000;
+  color: #fff;
 }
 
 .button {
@@ -64,6 +51,22 @@ a {
   display: inline-block;
 }
 
-.button:hover, :focus {
+.button:hover,
+:focus {
+  background-color: #fff;
+}
+
+.section-two {
+  background-color: white;
+  color: black;
+}
+
+.section-two .button {
+  background-color: black;
+  color: #ffe600;
+}
+
+.section-two .button:hover,
+:focus {
   background-color: #fff;
 }

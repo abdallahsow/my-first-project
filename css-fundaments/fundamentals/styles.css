@@ -4,6 +4,7 @@
   width: 560px;
   margin: auto;
   padding: 50px;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
@@ -43,4 +44,12 @@ a:active {
 
 a:focus {
   color: red;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #ffe600;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
 }

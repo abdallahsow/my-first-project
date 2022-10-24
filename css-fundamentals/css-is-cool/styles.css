@@ -26,11 +26,34 @@ body {
   background-color: #fff;
 }
 
-/* .second-section {
-
-} */
+.second-section {
+  color: #fff;
+  margin-top: 50px;
+}
 
 .section-title {
   color: #ef5839;
   font-size: 24px;
+}
+
+.links {
+  color: #ef5839;
+}
+
+.link-button {
+  padding: 10px 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+  display: inline-block
+}
+
+.contact {
+  background-color: #ef5839;
+  color: #fff;
+}
+
+.more-info {
+  background-color: #fff;
+  color: #2e354f;
 }

@@ -11,24 +11,28 @@ body {
   font-family: 'lato', sans-serif;
 }
 
-.webpage {
+.container {
   width: 620px;
   margin: 0 auto;
+  padding: 30px;
 }
 
 .webpage-title {
   color: #fff;
   font-size: 35px;
-  padding-block: 20px;
+  /* padding-block: 20px; */
 }
 
 .first-section {
   background-color: #fff;
 }
 
+.section-one-paragraph {
+  margin-top: 20px;
+}
+
 .second-section {
   color: #fff;
-  margin-top: 50px;
 }
 
 .section-title {
@@ -38,6 +42,10 @@ body {
 
 .links {
   color: #ef5839;
+}
+
+.links:hover,:focus {
+  color: aquamarine;
 }
 
 .link-button {
@@ -53,7 +61,17 @@ body {
   color: #fff;
 }
 
+.contact:hover {
+  background-color: #fff;
+  color: #ef5839;
+}
+
 .more-info {
   background-color: #fff;
   color: #2e354f;
+}
+
+.more-info:hover {
+  background-color: #2e354f;
+  color: #fff;
 }

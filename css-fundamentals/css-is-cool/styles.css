@@ -8,11 +8,11 @@ body {
   background-color: #2e354f;
   font-size: 20px;
   margin: 0;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .container {
-  width: 620px;
+  width: 60%;
   margin: 0 auto;
   padding: 30px;
 }
@@ -20,6 +20,11 @@ body {
 .webpage-title {
   color: #fff;
   font-size: 35px;
+  margin-bottom: 0;
+}
+
+.webpage-image {
+  width: 100%;
 }
 
 .first-section {
@@ -43,7 +48,8 @@ body {
   color: #ef5839;
 }
 
-.links:hover,:focus {
+.links:hover,
+:focus {
   color: aquamarine;
 }
 
@@ -52,7 +58,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   margin: 10px 10px 0 0;
-  display: inline-block
+  display: inline-block;
 }
 
 .contact {

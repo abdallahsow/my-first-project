@@ -6,6 +6,7 @@
 
 .container {
   max-width: 980px;
+  width: 90%;
   margin: auto;
   color: #707070;
 }
@@ -15,12 +16,15 @@
 }
 
 .page-title {
-    font-size: 3rem;
-    color: #312614;
+  font-size: 3rem;
+  color: #312614;
+  text-align: center;
+  padding: 10px;
 }
 
 .page-subtitle {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .elephants {
@@ -29,9 +33,24 @@
 
 .columns {
   display: flex;
+  margin-block: 10px;
+  /* gap: 20px; */
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
 }
 
 .right-column {
   background-color: #312614;
   color: #fff;
+  padding: 20px;
 }

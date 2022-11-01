@@ -33,20 +33,21 @@
 
 .columns {
   display: flex;
+  justify-content: space-between;
   margin-block: 10px;
   /* gap: 20px; */
 }
 
 .col-1 {
-  width: 25%;
+  width: 20%;
 }
 
 .col-2 {
-  width: 50%;
+  width: 45%;
 }
 
 .col-3 {
-  width: 75%;
+  width: 70%;
 }
 
 .right-column {

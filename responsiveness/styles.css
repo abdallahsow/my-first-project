@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: pink;
+}
+
+@media (min-width: 400px) {
+  body {
+    background-color: purple;
+  }
+}
+
 .container {
   max-width: 980px;
   width: 90%;

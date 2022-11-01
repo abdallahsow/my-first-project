@@ -8,7 +8,7 @@ body {
   background-color: pink;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   body {
     background-color: purple;
   }

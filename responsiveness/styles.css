@@ -56,8 +56,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin-block: 10px;
-  /* gap: 20px; */
 }
+
 
 .col-1 {
   width: 20%;
@@ -75,4 +75,14 @@ body {
   background-color: #312614;
   color: #fff;
   padding: 20px;
+}
+
+@media (max-width: 650px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+  }
 }

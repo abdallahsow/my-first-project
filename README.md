@@ -1,5 +1,5 @@
 # Responsive Design
 
-### CSS Fundamentals
+<!-- ### CSS Fundamentals
 ### Starting to think responsively
-### Stepping up our style
+### Stepping up our style -->
